@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="container">
+        <!--title-->
+        <div class="title">
+          <h2>our reviews</h2>
+          <div class="underline"></div>
+        </div>
+        <!--review-->
+        <article class="review">
+          <div class="img-container">
+            <img src="./person-1.jpeg" id="person-img" alt="" />
+          </div>
+          <h4 id="author">sara Jones</h4>
+          <p id="job">UX Designer</p>
+          <p id="info">
+            JavaScript forEach() Function Description. JavaScript forEach() is a
+            JavaScript array method. forEach() calls a provided callback
+            function once for each element of the array. It can be only used on
+            Arrays, Map and Sets Datatypes of the JavaScript. The provided
+            callback function can perform any type of operation on the element
+            of the given array. The forEach() method calls a function once for
+            each element in an array, in order. Note: the function is not
+            executed for array elements without values.
+          </p>
+          <!--prev next buttons-->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <!--random button-->
+          <button class="random-btn">Suprise Me</button>
+        </article>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="main.js"></script>
+  </body>
+</html>
